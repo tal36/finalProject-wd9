@@ -1,0 +1,40 @@
+.openPeragraph {
+  padding: 0 30%;
+  line-height: inherit;
+  text-align: center;
+  margin: 10px;
+  font-size: 18px;
+}
+
+.divAroundCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+/* .img {
+  width: 100px;
+} */
+
+.container {
+  width: 100%; /* Adjust as needed */
+  height: 100%; /* Adjust as needed */
+  margin: 15px;
+}
+
+.background-cover {
+  position: relative;
+  padding: 20px; /* Adjust padding as needed */
+  background: url("/public/backgroundpic.jpg") no-repeat center center;
+  background-size: cover;
+  color: rgb(102, 75, 25); /* Ensures text is readable over the image */
+  text-align: center; /* Centers the text, if desired */
+  border: 1px solid #ccc; /* Optional: border for the container */
+}
+
+.background-cover h2,
+.background-cover p {
+  position: relative; /* Ensures the text is above the background image */
+}

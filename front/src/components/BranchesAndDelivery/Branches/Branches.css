@@ -1,0 +1,9 @@
+.branches {
+  border: 2px dotted blue;
+  margin: 5px;
+  padding: 10px;
+}
+
+.branches > h3 {
+  color: orange;
+}

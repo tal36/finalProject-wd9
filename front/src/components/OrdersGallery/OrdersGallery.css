@@ -1,0 +1,31 @@
+.whichOrder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* border: 2px solid red; */
+}
+
+/* .divOrder {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  border: 2px solid red;
+} */
+
+/* .alldivOrder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 2px solid red;
+} */
+
+.currentOrders {
+  /* border: 2px solid red; */
+  width: 60%;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
